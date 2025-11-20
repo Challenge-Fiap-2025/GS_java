@@ -37,7 +37,7 @@ public class SessaoEmocionalRepository {
                 SessaoEmocional s = new SessaoEmocional();
                 s.setId(rs.getInt("id_sessao"));
                 s.setDataSessao(rs.getString("data_sessao"));
-                s.setHumor(rs.getString("humor"));
+                s.setHumor(rs.getString("humor_sessao"));
                 s.setObservacoes(rs.getString("observacoes"));
                 lista.add(s);
             }
